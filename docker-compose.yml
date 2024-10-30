@@ -6,7 +6,7 @@ services:
     container_name: neo-website
     restart: unless-stopped
     ports:
-      - "${PORT:-3000}:80"
+      - "${PORT:-31570}:80"
     environment:
       - NODE_ENV=production
     healthcheck:
